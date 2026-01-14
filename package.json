@@ -1,6 +1,6 @@
 {
   "name": "fusion-starter",
-  "homepage": "https://ytzhou123.github.io/FH-Simulator",
+  "homepage": "https://ytzhou123.github.io/FH-Simulator/",
   "private": true,
   "type": "module",
   "pkg": {
@@ -21,7 +21,7 @@
     "format.fix": "prettier --write .",
     "typecheck": "tsc",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist/spa"
   },
   "dependencies": {
     "dotenv": "^17.2.1",

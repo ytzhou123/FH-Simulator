@@ -17,7 +17,7 @@ export default defineConfig(({ mode }) => ({
     outDir: "dist/spa",
   },
   plugins: [react(), expressPlugin()],
-  base: "/FH-Simulator",
+  base: "/FH-Simulator/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./client"),
