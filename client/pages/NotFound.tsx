@@ -8,9 +8,11 @@ export default function NotFound() {
       <div className="text-center space-y-6 max-w-md">
         <div className="space-y-4">
           <h1 className="text-6xl font-bold text-tech-blue-400">FHS Simulator</h1>
-          <h2 className="text-2xl font-semibold text-white">Click Go Home To Start Generate</h2>
+          <h2 className="text-2xl font-semibold text-white">Click Go Home To Start Generating</h2>
         </div>
-        
+        git add .
+git commit -m "update"
+git push
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
             asChild
