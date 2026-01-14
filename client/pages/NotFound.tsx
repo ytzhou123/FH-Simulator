@@ -7,11 +7,8 @@ export default function NotFound() {
     <div className="min-h-screen bg-gradient-to-br from-tech-dark-900 via-tech-blue-950 to-tech-dark-900 flex items-center justify-center px-6">
       <div className="text-center space-y-6 max-w-md">
         <div className="space-y-4">
-          <h1 className="text-6xl font-bold text-tech-blue-400">404</h1>
-          <h2 className="text-2xl font-semibold text-white">Page Not Found</h2>
-          <p className="text-tech-blue-300">
-            Sorry, the page you are looking for does not exist or has been moved.
-          </p>
+          <h1 className="text-6xl font-bold text-tech-blue-400">FHS Simulator</h1>
+          <h2 className="text-2xl font-semibold text-white">Click Go Home To Start Generate</h2>
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
